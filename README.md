@@ -8,20 +8,7 @@ target NFS server (/mnt/apps) via SSH using the Publish Over SSH plugin.
 
 Infrastructure Overview (AWS EC2)
 
-[ Developer Push ] ───> [ GitHub Repo: amarsaleem333/tooling ]
-                                    │
-                                 (Webhook)
-                                    │
-                                    ▼
-                         [ Project 9 Jenkins ]
-                      (IP: 3.89.202.227:8080)
-                         Builds & Archives
-                                    │
-                            (SSH / Port 22)
-                                    │
-                                    ▼
-                          [ Project 7 -NFS ]
-                       (IP: 172.31.17.253)
-                      Deploys to /mnt/apps
+<img width="614" height="353" alt="image" src="https://github.com/user-attachments/assets/51041def-f4bc-4fd1-bf24-dfd02e23e2de" />
+
 
                       
