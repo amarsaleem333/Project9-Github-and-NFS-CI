@@ -7,6 +7,7 @@ This project establishes an automated Continuous Integration (CI) pipeline using
 target NFS server (/mnt/apps) via SSH using the Publish Over SSH plugin.
 
 Infrastructure Overview (AWS EC2)
+
 [ Developer Push ] ───> [ GitHub Repo: amarsaleem333/tooling ]
                                     │
                                  (Webhook)
@@ -23,3 +24,4 @@ Infrastructure Overview (AWS EC2)
                        (IP: 172.31.17.253)
                       Deploys to /mnt/apps
 
+                      
